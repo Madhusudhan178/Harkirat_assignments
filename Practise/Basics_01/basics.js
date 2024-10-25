@@ -1,0 +1,15 @@
+let s1="hi"
+console.log(typeof s1)//string
+let s=new String("madhu")
+console.log(typeof s);//object using constructor
+ console.log("????????????????????????????????????????????")
+ let n1=10;
+ console.log(typeof n1)
+ let n2 =new Number(120.3/10)
+ console.log(n2)
+ console.log(typeof n2)
+ console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!")
+ let b=false;
+ console.log(typeof b)
+ let b1=new Boolean(0)
+ console.log(typeof b1)
