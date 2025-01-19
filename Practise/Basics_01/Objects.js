@@ -60,11 +60,13 @@ const person = {
         }
     }
   })
+  console.log(o1);
 console.log(o1.user["fullname"]["hi"])
-const o=[
-  {
+console.log(o1[mysym])
+// const o=[
+//   {
 
-  },{} ,{}
-]
+//   },{} ,{}
+// ]
 
   

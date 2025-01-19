@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body style="background-color: black; color:white">
+    <language class="language">
+        <li>JavaScript</li>
+    </language>
+</body>
+<script>
+    function addLanguage(langName){
+    const li=document.createElement('li');
+    li.innerHTML=`${langName}`;
+    document.querySelector('.language').appendChild(li);
+    }
+    addLanguage("CSS")
+    function optiLanguage(langName){
+        const li=document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+
+    optiLanguage("Advacne Java")
+
+    //edit
+    const SecondLang=document.querySelector("li:nth-Child(2)")
+    SecondLang.innerHTML='Mojo';
+    //remove
+    SecondLang.remove();
+</script>
+</html>
